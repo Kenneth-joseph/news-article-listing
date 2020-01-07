@@ -9,7 +9,7 @@ def index():
     View root page function that returns the index page and its data
     """
     message = 'Hello kent joz'
-    title = 'Home - Welcome to The best Movie Review Website Online'
+    title = 'Home - Welcome to The best News anchor page'
     return render_template('index.html', message=message, title=title)
 
 @app.route('/news/<id>')
