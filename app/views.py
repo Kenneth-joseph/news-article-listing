@@ -12,3 +12,7 @@ def index():
     title = 'Home - Welcome to The best Movie Review Website Online'
     return render_template('index.html', message=message, title=title)
 
+@app.route('/news/<id>')
+def news(id):
+
+    return render_template('news.html',id = id)
