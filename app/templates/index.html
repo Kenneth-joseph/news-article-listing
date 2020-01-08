@@ -7,10 +7,16 @@
     {% if title %}
     <title> {{ title }}</title>
     {% else %}
-    <title> Welcome to the best Movie Review website </title>
+    <title> Welcome to the best News Review website </title>
     {% endif %}
 </head>
 <body>
     <p>we are just started</p>
+    <h3>Microsoft</h3>
+    <ul>
+        {%for latest_news in sports%}
+          <li>{{latest_news.title}}</li>
+          {%endfor%}
+    </ul>
 </body>
 </html>
