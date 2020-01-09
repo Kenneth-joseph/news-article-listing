@@ -7,13 +7,8 @@
 
 ## Screenshots
 > **Visual presentation of my work**
- >>##### form and top page section
-![this shows the top page](images/form.png)
- >>##### provides more information 
-![this shows the contact section](images/more.png)
->>##### booking section
-![this shows the what we do section and portfolio](images/book.png)
-
+ >>##### Lnding page
+![this shows the top page](static/image/news.png)
 
  ## Description
 >This page is a great platform for indiduals whom can read and love getting updated in terms of news
